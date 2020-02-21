@@ -1,3 +1,5 @@
+Directions.  If you have a dataset in Microsoft Excel and want to import it quickly into SQL Server.
+
 drop table if exists actuarial.sandbox.msa_data_mjc;
 create table actuarial.sandbox.msa_data_mjc (Zip varchar(10), msaname varchar(100), percent_overlap float)
 ="insert into actuarial.sandbox.msa_data_mjc values ('"&B3&"', '"&D3&"', '"&G3&"')"
